@@ -1,0 +1,27 @@
+#tabelarasporeda, tr:nth-child(odd){
+    background-color: aqua;
+}
+#tabelarasporeda, tr:nth-child(even){
+    background-color: blue;
+}
+.wrapper{
+    margin: 0 auto;
+    text-align: center;
+}
+.lista{
+    display: block;
+}
+table{
+    width: 100%;
+    margin: 0 auto;
+}
+input{
+    margin: 10px 0px;
+}
+.predavaci, .ucionice{
+    display: inline;
+}
+.oba{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
